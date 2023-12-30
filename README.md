@@ -6,6 +6,10 @@ Application of deep learning for the cybersecurity of In-Vehicle Networks of aut
 
 This project focuses on applying deep learning techniques to analyze Controller Area Network (CAN) network traffic in automotive vehicles. The dataset contains both attack and normal messages, with features including class and subclass designations to differentiate between legitimate operational signals and potential attack messages. The primary objective is to develop robust models capable of distinguishing between normal and malicious CAN messages.
 
+**Dataset Source**
+
+https://www.mdpi.com/1424-8220/22/1/360
+
 **Feature Engineering**
 
 Feature engineering techniques were applied to enhance the dataset. The focus was on splitting the data column into its relevant format. This step aimed to improve the overall quality and informativeness of the dataset.
