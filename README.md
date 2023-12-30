@@ -39,7 +39,9 @@ All three models were applied using a multi-task approach. This involved predict
 In the multi-stage approach, the models were trained in two stages. In the first stage, the model was trained using the class feature. In the second stage, all normal instances were dropped, and the model was retrained specifically for the subclass feature. This approach aimed to enhance the model's ability to distinguish between subclasses after an initial classification based on the class feature.
 
 **Model Evaluation**
+
 The convolutional neural network using multi-stage approach demonstrated the best results among the three architectures. Evaluation metrics such as accuracy, precision, recall, and F1 score were used to assess the models' performance. The findings provide insights into the efficacy of deep learning for automotive cybersecurity in the context of CAN traffic analysis.
 
 **Result Visualization**
+
 Results, including predictions and performance metrics, were visualized to facilitate interpretation. Visualizations may include confusion matrices, ROC curves, and other relevant plots to showcase the models' effectiveness in distinguishing between normal and malicious CAN messages.
